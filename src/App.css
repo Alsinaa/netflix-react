@@ -2,24 +2,35 @@
   background-color: black;
   font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
 }
-img {
+.logo {
   height: 100px;
   margin-left: 50px;
 }
 .section {
-  border: 3px solid purple ;
+  /* border: 3px solid purple ; */
 
+  margin: 40px;
+  padding-bottom: 40px;
 }
-div {
-  border: 2px solid orange;
-}
+
 .name {
   /* border: 2px solid green; */
   color: white;
   font-size: 20px;
   font-weight: bold;
+  margin: 20px 0;
 }
 .imgMovies {
-  border: 2px solid blue;
-  height: 200px;
+  /* border: 2px solid blue; */
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.imgMovies::-webkit-scrollbar {
+  display: none;
+}
+.imgMovies img {
+  /* border: 1px solid yellow; */
+  height: 120px;
+  width: 220px;
 }
